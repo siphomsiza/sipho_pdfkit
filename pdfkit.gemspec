@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.date = %q{2010-06-18}
   s.description = %q{Uses wkhtmltopdf to create PDFs using HTML}
   s.email = %q{jared@codewordstudios.com}
-  s.executables = ["wkhtmltopdf-linux-i386-0-9-9", "wkhtmltopdf-osx-i386-0-9-9", "wkhtmltopdf-proxy"]
+  s.executables = ["wkhtmltopdf-linux-i386-0-12-4","wkhtmltopdf-linux-i386-0-9-9", "wkhtmltopdf-osx-i386-0-9-9", "wkhtmltopdf-proxy"]
   s.extra_rdoc_files = [
     "LICENSE",
      "README.md"
@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
      "README.md",
      "Rakefile",
      "VERSION",
+     "bin/wkhtmltopdf-linux-i386-0.12.4",
      "bin/wkhtmltopdf-linux-i386-0-9-9",
      "bin/wkhtmltopdf-osx-i386-0-9-9",
      "bin/wkhtmltopdf-proxy",
@@ -69,4 +70,3 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<mocha>, [">= 0"])
   end
 end
-

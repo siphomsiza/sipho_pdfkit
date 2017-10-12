@@ -20,6 +20,7 @@ begin
        "README.md",
        "Rakefile",
        "VERSION",
+       "bin/wkhtmltopdf-linux-i386-0-12-4",
        "bin/wkhtmltopdf-linux-i386-0-9-9",
        "bin/wkhtmltopdf-osx-i386-0-9-9",
        "bin/wkhtmltopdf-proxy",
