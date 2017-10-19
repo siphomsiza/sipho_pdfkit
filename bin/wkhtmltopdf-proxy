@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-executable = `which wkhtmltopdfs`.chomp
+executable = `which wkhtmltopdf`.chomp
 if executable.empty?
 
   binary =  case RUBY_PLATFORM
