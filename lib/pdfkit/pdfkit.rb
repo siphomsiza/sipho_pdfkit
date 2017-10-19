@@ -21,6 +21,7 @@ class PDFKit
     @stylesheets = []
 
     default_options = {
+      :ignore_load_errors => true,
       :disable_smart_shrinking => true,
       :page_size => 'Letter',
       :margin_top => '2.5in',
